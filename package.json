@@ -13,12 +13,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "morgan": "^1.12.1",
     "sequelize": "^6.37.8",
     "sqlite3": "^6.0.1"
   },
   "allowScripts": {
-    "sqlite3@6.0.1": true
+    "sqlite3@6.0.1": true,
+    "bcrypt@6.0.0": true
   }
 }
